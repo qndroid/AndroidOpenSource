@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="linearlayout_animation">
+        <attr name="animation_duration" format="integer" />
+        <attr name="animation_interpolator" format="integer" />
+    </declare-styleable>
+
+</resources>

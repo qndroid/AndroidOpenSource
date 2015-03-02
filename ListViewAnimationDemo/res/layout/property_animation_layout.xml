@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.focustech.common.view.scrollview.pullscrollview.StretchScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/property_normal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="属性动画基本操作"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/property_flakes"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="属性动画随机效果"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/layout_transation"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="LayoutAnim属性动画效果"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/secret_textview"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="自定义TextView实现随机消失效果"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/click_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="点击抖动ImageView效果(仿携程首页)"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/auto_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="自动上下滑动的 ScrollView"
+            android:textColor="#000000" >
+        </TextView>
+    </LinearLayout>
+
+</com.focustech.common.view.scrollview.pullscrollview.StretchScrollView>

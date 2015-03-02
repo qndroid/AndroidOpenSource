@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anim="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <view.AnimationLinearLayout
+        android:id="@+id/animation_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        anim:animation_duration="2000"
+        anim:animation_interpolator="1" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            layout="@layout/animation_sample1" />
+    </view.AnimationLinearLayout>
+
+    <view.AnimationLinearLayout
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        anim:animation_duration="2000"
+        anim:animation_interpolator="2" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            layout="@layout/animation_sample2" />
+    </view.AnimationLinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.focustech.common.widget.swipelayout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/item_selector" >
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="#66ddff00"
+        android:tag="Bottom1"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/animation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FED952"
+            android:gravity="center"
+            android:text="Animation"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="Hover"
+            android:text="Android属性动画学习,属性动画是比 View动画要强大的多的一个动画框架,从API11开始引入..." />
+    </LinearLayout>
+
+</com.focustech.common.widget.swipelayout.SwipeLayout>

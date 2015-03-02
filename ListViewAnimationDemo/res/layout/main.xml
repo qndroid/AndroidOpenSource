@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.focustech.common.widget.swipelayout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/godfather"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:drag_edge="bottom" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/sample_together" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/sample_together_bottom" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/hand" />
+    </RelativeLayout>
+
+</com.focustech.common.widget.swipelayout.SwipeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.focustech.common.widget.swipelayout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="#66ddff00"
+        android:tag="Bottom1"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/view_pager_color"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#FF1300"
+            android:gravity="center"
+            android:text="背景颜色渐变"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/view_pager_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#C7C7CC"
+            android:gravity="center"
+            android:text="切换特效" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="Hover"
+            android:text="ViewPager特效,包括 ViewPager各种切换特效和弹性效果" />
+    </LinearLayout>
+
+</com.focustech.common.widget.swipelayout.SwipeLayout>
